@@ -1,0 +1,710 @@
+/*头部菜单开始*/
+.menu {
+    height: 46px;
+    line-height: 46px;
+    background-color: #4C5A65;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.menu .xianshi {
+    border-bottom: 1px solid #F1F1F1;
+    height: 44px;
+}
+.menu li {
+    float: left;
+    padding: 0 6px;
+    position: relative;
+}
+.menu li .tehui {
+    height: 20px;
+    line-height: 20px;
+    background-color: #FF6535;
+    color: #fff;
+    position:absolute;
+    top: -15px;
+    left: 30px;
+    margin-left: -25px;
+    padding: 0 5px;
+    font-size: 10px;
+}
+.menu li .tehui-small {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 12px;
+    top: 5px;
+    border-left: 2px solid #FF6535;
+    border-top: 2px solid #FF6535;
+    border-bottom: 2px solid transparent;
+    border-right: 2px solid transparent;
+}
+
+
+.menu li.selected {
+    background-color: #50B400;
+}
+.menu>.w>ul>li:after{
+    content:"";
+    height: 14px;
+    width: 1px;
+    /*border: 1px solid yellow;*/
+    background-color: #5E6A74;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}
+.menu>.w>ul>li>a {
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    padding: 0 15px 0 5px;
+}
+.menu li a i {
+    position: absolute;
+    top: 4px;
+    right: -3px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    height: 10px;
+    overflow: hidden;
+}
+.menu li a i b{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -9px;
+    left: 0px;
+    font-size: 12px;
+}
+.menu li a i b.show{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    font-size: 12px;
+    color: #000;
+}
+.menu-btm {
+    width: 700px;
+    display: none;
+}
+.show1 {
+    display: block;
+}
+.menu-btm1 {
+    position: absolute;
+    bottom: -44px;
+    left: 10px;
+}
+.menu-btm2{
+    position: absolute;
+    bottom: -44px;
+    left: -80px;
+}
+.menu-btm3 {
+    position: absolute;
+    bottom: -44px;
+    right: 0px;
+    /*width: 400px;*/
+}
+.menu-btm li {
+    float: left;
+    padding: 0 10px;
+    font-size: 14px;
+}
+.menu-btm a {
+   font-size: 14px;
+    font-weight: 700;
+    color: #666666;
+    padding: 0 0 4px 0;
+}
+.menu-btm a.selected {
+    border-bottom: 2px solid #59B80D;
+}
+
+    /*头部菜单结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*中部开始*/
+.box {
+    height: 472px;
+    margin-top: 80px;
+}
+.box .left {
+    width: 294px;
+    position: relative;
+    float: left;
+    border: 2px solid #565B71;
+    padding-left: 2px;
+    background-color: #565B71;
+}
+.left .text{
+    padding-top: 17px;
+    height: 60px;
+    color: #FFF;
+}
+.left .text i {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.left .line {
+    border-bottom: 1px dashed #0F0F1E;
+    width: 242px;
+    margin-left: 20px;
+}
+.left .libox {
+    width: 202px;
+    margin: 0 20px;
+    padding-left: 40px;
+    height: 60px;
+    position: relative;
+}
+.left .libox i {
+    position: absolute;
+    top: 16px;
+    left: 0px;
+}
+.left li span {
+    color: #6E7592;
+    position: absolute;
+    top: 25px;
+    right: 18px;
+    font-size: 24px;
+}
+.left .li_top {
+    margin-bottom: 6px;
+}
+.left .li_top a{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 4px;
+}
+.left .li_btm a{
+    color: #DCDCDC;
+    font-size: 14px;
+    margin-right: 2px;
+}
+.left .li_btm a:hover {
+    color: #EDA712;
+}
+.left .li_btm a.special {
+    color: #EDA712;
+}
+.left ul {
+    position: relative;
+}
+.left .text  .item {
+    display: none;
+    position: absolute;
+    top: -1px;
+    left: 296px;
+
+}
+/*轮播图开始*/
+
+.box .right {
+    width: 861px;
+    height: 470px;
+    margin-left: 19px;
+    float: left;
+}
+.banner {
+    position: relative;
+    width: 860px;
+    height: 294px;
+    overflow: hidden;
+}
+.box .right ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1000%;
+}
+.right ul li {
+    float: left;
+}
+
+.banner .pages {/*左右焦点*/
+
+    height: 60px;
+    width: 860px;
+    /*background-color: pink;*/
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+}
+.banner .pages a {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    width: 30px;
+    font-size: 22px;
+    background-color: #000;
+    opacity: .3;
+    color: #FFF;
+}
+.banner .pages .left {
+    float: left;
+}
+.banner .pages .right {
+    float: right;
+}
+ .slider {
+     width: 180px;
+     height: 20px;
+     position: absolute;
+     bottom: 0;
+     right: 0;
+ }
+.slider li{/*小方块*/
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    background-color: #38415F;
+    color: #FFF;
+    margin-right: 10px;
+}
+.slider .current {
+    background-color: #FC841A;
+}
+
+/*轮播图结束*/
+.right-btm a {
+    float: left;
+}
+.right-btm {
+    margin-top: 19px;
+}
+/*中部结束*/
+
+
+
+/*风向标开始*/
+.wind {
+    height: 307px;
+    margin-top: 40px;
+    position: relative;
+}
+.time{/*倒计时*/
+    position: absolute;
+    top: 20px;
+    left: 220px;
+    width: 130px;
+    height: 40px;
+    background-color: #FFAD57;
+    font-size: 12px;
+    color: #FFF;
+    padding-left: 15px;
+}
+
+.wind-left {
+    float: left;
+    width: 200px;
+}
+.wind-right {
+    width: 980px;
+    float: right;
+    background-color: #F3F5FA;
+    height: 307px;
+}
+.wind-right li {
+    float: left;
+    margin: 20px 0 0 20px;
+    height: 266px;
+    width: 218px;
+    border: 1px solid #DDDDDD;
+    position: relative;
+}
+.p4 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, .3);
+    width: 74px;
+    height: 40px;
+    color: #E1E2E8;
+    font-size: 12px;
+    text-align: center;
+}
+.wind-right li b {
+    width: 39px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    background: url("../images/tehui.png") no-repeat;
+}
+.nameBox {
+    padding: 14px 0 0 14px;
+}
+.nameBox .p1 {
+    width: 188px;
+    overflow: hidden;
+    height: 40px;
+    color: #333333;
+}
+.nameBox .p2 {
+    width: 188px;
+    height: 34px;
+    margin-top: 10px;
+    border-bottom: 1px dashed #DDDDDD;
+}
+.nameBox .p2 span {
+    font-size: 14px;
+    color: #FF6633;
+    font-weight: 700;
+}
+.nameBox .p2 em {
+    color: #FF6633;
+    font-size: 24px;
+    font-weight: 700;
+}
+.nameBox .p2 i {
+    font-size: 12px;
+    margin-left: 4px;
+}
+.nameBox .p3 {
+    color: #F7A945;
+    position: relative;
+    margin-top: 6px;
+}
+.nameBox .p3 i {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    line-height: 18px;
+    background-color: #FF5028;
+    color: #FFF;
+
+}
+/*风向标结束*/
+
+/*跟团游开始*/
+.content {
+    height: 660px;
+    margin-top: 40px;
+}
+.content .hot{
+    float: left;
+    width: 207px;
+}
+
+.content .bg {
+    height: 530px;
+    width: 186px;
+    background-image: url(../images/gentuanyoubg.jpg);
+    padding-top: 70px;
+    padding-left: 22px;
+}
+.content .bg p {
+    font-size: 20px;
+    color: #707DE4;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.content .bg ul {
+    display: none;
+}
+.content .bg ul.show {
+    display: block;
+}
+.content .bg ul li {
+    line-height: 24px;
+}
+.content .bg ul li a {
+    color: #8E97DE;
+    text-decoration: underline;
+}
+.contentlist {
+    width: 973px;
+    float: right;
+    height: 660px;
+}
+.contentlist .menublue {
+    height: 56px;
+    border-bottom: 3px solid #C0CEFD;
+}
+.contentlist .menublue .more {
+    float: right;
+    width: 80px;
+    height: 34px;
+    margin-top: 30px;
+}
+.menublue .more a {
+    color: #6C78D5;
+}
+.menublue .menutab {
+    height: 60px;
+   padding-top: 20px;
+    padding-left: 10px;
+    float: left;
+}
+.menublue .menutab li {/*跟团游导航*/
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 12px;
+    margin-right: 10px;
+}
+.menublue .menutab .current {
+    background-color: #F3F5FA;
+    border-top: 3px solid #C0CEFD;
+}
+.contentlist .item {/*景点列表的盒子*/
+    height: 600px;
+    position: relative;
+    padding-left: 10px;
+    background-color: #F3F5FA;
+    display: none;
+}
+.contentlist .item.selected {
+    display: block;
+}
+.contentlist .item ul {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.contentlist .item li{
+    float: left;
+    border: 1px solid #DDDDDD;
+    margin-right: 20px;
+    margin-bottom: 12px;
+    height: 178px;
+    width: 218px;
+    background-color: #fff;
+
+}
+.contentlist .item .first {
+    width: 458px;
+    position: relative;
+    height: 368px;
+}
+.first .vip {
+    position: absolute;
+    top: -7px;
+    left: 10px;
+    width: 71px;
+    height: 67px;
+    background-image: url(../images/hotvip.png);
+}
+.item .first .imgBox {
+    position: relative;
+}
+.contentlist .first .introduce {
+    padding: 10px 18px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.first .introduce h4{
+    width: 422px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A1A1A1;
+    overflow: hidden;
+}
+.first .introduce h4 span {
+    color: #FFF;
+}
+.namBox {
+    width: 458px;
+    height: 68px;
+    background-color: #fff;
+}
+.namBox .price {
+   color: #FF6633;
+    width: 194px;
+    float: left;
+    margin: 30px 0 0 24px;
+    font-size: 24px;
+    position: relative;
+}
+.namBox .price span{
+    font-size: 34px;
+    margin-left: 6px;
+}
+.namBox .price em {
+    font-size: 16px;
+    color: #A1A1A1;
+    margin-left: 6px;
+}
+.namBox .price i {
+    position: absolute;
+    top: -19px;
+    left: 88px;
+    width: 41px;
+    height: 29px;
+    background-image: url(../images/wol.png);
+
+}
+.namBox .back {
+    float: left;
+    width: 78px;
+    height: 40px;
+    font-size: 14px;
+    padding: 0 10px;
+    background-color: #F7F7F7;
+    margin-top: 20px;
+    color: #A1A1A1;
+}
+.namBox .back span {
+    color: #FF6633;
+}
+.namBox p {
+    float: right;
+    color: #A1A1A1;
+    margin-right: 18px;
+   margin-top: 40px;
+}
+
+.item li .detail {
+   margin: 6px 10px;
+}
+.detail .p1 {
+    width: 200px;
+    height: 30px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.detail span {
+    font-size: 12px;
+    color: #A1A1A1;
+
+}
+.detail span b {
+    color: #FF6633;
+    margin-left: 76px;
+}
+.detail span i {
+    color: #FF6633;
+    font-size: 22px;
+}
+/*跟团游结束*/
+
+/*主题游开始*/
+.zhutiyou {
+   margin-top: 20px;
+}
+.zhutiyou .topimg {
+    margin-bottom: 20px;
+}
+.zhutiyou ul {
+    width: 1000%;
+}
+.zhutiyou li {
+    float: left;
+    margin-right: 18px;
+}
+/*主题游结束*/
+
+/*攻略开始*/
+.gonglue {
+    height: 300px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.gonglue .left {
+    float: left;
+}
+.gonglue .hotarea {
+    margin-top: 20px;
+    width: 156px;
+    height: 212px;
+    padding: 28px 22px 0;
+    background-image: url(../images/playbg.png);
+}
+.gonglue .hotarea p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #5AA1D8;
+    margin-bottom: 20px;
+}
+.gonglue .hotarea li {
+    float: left;
+    width: 52px;
+    line-height: 30px;
+}
+.gonglue .hotarea li a {
+    color: #5AA1D8;
+}
+.center {
+    float: left;
+    margin-left: 18px;
+    width: 720px;
+    margin-top: 69px;
+}
+.center li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.center li .zhezhao {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 220px;
+    height: 110px;
+    background-color: rgba(0, 0, 0, .4);
+    color: #fff;
+    line-height: 110px;
+    text-align: center;
+}
+.center li img {
+    width: 220px;
+    height: 110px;
+}
+.gonglue .right {
+    width: 209px;
+    height: 212px;
+    border: 1px solid #DDD;
+    float: right;
+    margin-top: 69px;
+    padding-left: 24px;
+    padding-top: 28px;
+}
+.gonglue .right p {
+   font-size: 18px;
+    font-weight: 700;
+    color: #999999;
+    margin-bottom: 10px;
+}
+.gonglue .right li a {
+    color: #999999;
+    line-height: 30px;
+}
+/*攻略结束*/

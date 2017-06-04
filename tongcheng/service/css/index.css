@@ -1,0 +1,583 @@
+.content{
+}
+.content .top1{
+    position: relative;
+    height: 418px
+}
+
+
+
+/*top1开始*********************/
+.top1 .toutu {
+    background: url(../images/top1.png) center top no-repeat;
+    height: 418px
+}
+.top1 .form {
+    width: 450px;
+    height: 400px;
+    background: url(../images/bg1.png);
+    position: absolute;
+    top: 0px;
+    left: 80px;
+}
+.form .ftop {
+    background: url(../images/bg2.png);
+    height: 85px
+}
+.form .ftop h1 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px
+}
+.form .ftop .tips {
+    color: #fff;
+    position: absolute;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    top: 44px;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+    text-align: center
+}
+.form .ftop .tips.open {
+    opacity: 1;
+    visibility: visible
+}
+.form .ftop .tips p {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center
+}
+.form .ftop .tips p span {
+    float: left;
+    width: 100%;
+    height: 22px;
+    line-height: 22px
+}
+.form .book {
+    padding: 15px 20px;
+    width: 410px;
+    height: 285px;
+    z-index: 15
+}
+.form .book li {
+    float: left;
+    padding: 0 10px;
+    width: 185px;
+    height: 63px;
+    position: relative
+}
+
+.form .book li span {
+    padding: 8px 0 10px 12px;
+    line-height: 12px;
+    display: block;
+    height: 12px;
+    color: #fff
+}
+.form .book li span .err {
+    color: #ed710c
+}
+
+.book input {
+    width: 138px;
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #ddd;
+    padding: 6px 10px 6px 35px;
+    color: #666;
+    font-size: 14px;
+    display: block;
+    background: url(../images/icon.png) no-repeat #fff
+}
+.checkModel a, .linelist a {
+    font-size: 12px;
+    float: left
+}
+
+.book1 input {
+    background-position: 10px 7px
+}
+
+.book2 input {
+    background-position: 10px -23px
+}
+
+.book3 input {
+    background-position: 11px -52px
+}
+
+.book4 input {
+    background-position: 11px -82px
+}
+
+.book5 input {
+    background-position: 12px -112px
+}
+
+.book6 input {
+    background-position: 12px -143px
+}
+.tkbox {
+    position: absolute;
+    box-shadow: 2px 2px 30px #666;
+    background: #fff;
+    z-index: 15;
+    padding: 12px 14px 0;
+    line-height: 28px;
+}
+.tkbox:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-bottom: 8px solid #fff;
+    position: absolute;
+    left: 53px;
+    top: -16px
+}
+.linelist {
+    left: 10px;
+    top: 72px;
+    width: 350px;
+    padding-bottom: 10px
+}
+.linelist a {
+    text-decoration: none;
+    color: #666;
+    padding: 0 6px;
+    line-height: 28px
+}
+
+.linelist a:hover {
+    color: #ff6815
+}
+.checkModel {
+    left: -17px;
+    top: 72px;
+    width: 212px;
+    height: 88px
+}
+
+.checkModel a {
+    display: block;
+    width: 92px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #d6d6d6;
+    margin: 0 6px 12px;
+    color: #797979;
+    text-align: center
+}
+.checkModel a:hover {
+    background: url(../images/xuan.png) 77px 0 no-repeat;
+    color: #fd7303;
+    border: 1px solid #e6ae82
+}
+.book li.subbtn {
+    width: 390px;
+    padding-top: 25px
+}
+
+.book .subbtn .submit {
+    width: 200px;
+    height: 43px;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    background: #ff7800;
+    text-align: center
+}
+.book .subbtn .submit:hover {
+    color: #fff;
+    background: #f63
+}
+
+/*top1结束*********************/
+
+
+
+
+/*top2开始*************************/
+
+.top2 {
+    background: url(../images/top2.png) center top no-repeat;
+    height: 290px
+}
+
+/*top2结束*****************************/
+
+
+
+
+
+/*top3开始******************************/
+.top3 {
+    background: #f2f4f6;
+    height: 625px;
+    position: relative
+}
+.top3_tit {
+    background: url(../images/top3.png) center top no-repeat;
+    width: 100%;
+    height: 148px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+#focus_Box, #focus_Box ul {
+    position: relative;
+    height: 400px
+}
+#focus_Box {
+    width: 100%;
+    padding-top: 150px
+}
+
+#focus_Box ul {
+    width: 1054px;
+    margin: 0 auto
+}
+#focus_Box li {
+    z-index: 0;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    background: #787878;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 1px 1px 12px #c8c8c8
+}
+#focus_Box .next, #focus_Box .prev, .btn-next, .btn-prev {
+    z-index: 100;
+    overflow: hidden;
+    display: block;
+    cursor: pointer
+}
+#focus_Box .next, #focus_Box .prev {
+    position: absolute;
+    width: 36px;
+    height: 61px;
+    top: 300px
+}
+#focus_Box .prev {
+    background: url(../images/left.png) no-repeat;
+    left: 10px;
+
+}
+
+#focus_Box .next {
+    background: url(../images/right.png) no-repeat;
+    right: 10px;
+}
+#focus_Box li img {
+    width: 100%;
+    background: url(../images/loading.png) center 50% no-repeat;
+    height: 100%;
+    vertical-align: top
+}
+
+
+
+/*top3结束******************************/
+
+
+
+
+
+/*top4开始******************************/
+.top4 {
+    height: 748px;
+    position: relative
+}
+.top4_tit {
+    background: url(../images/top4.png) center top no-repeat;
+    width: 100%;
+    height: 148px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+.mSlider {
+    width: 100%;
+    height: 525px;
+    position: relative;
+    padding-top: 148px
+}
+.mSlider_con {
+    width: 1216px;
+    height: 530px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-bottom: 1px dashed #bbb
+}
+.mSlider_con .slider_ul {
+    width: 1000%;
+    position: relative;
+    left: 0;
+    overflow: hidden
+}
+.mSlider_con .slider_ul li {
+    float: left;
+    width: 278px;
+    height: 370px;
+    padding: 120px 13px 0;
+    position: relative ;
+    left : 0;
+}
+
+.mSlider_con .slider_ul li .info {
+    position: absolute;
+    top: 380px;
+}
+
+.mSlider_con .slider_ul li .logo {
+    position: absolute;
+    top: 65px;
+    left: 97px;
+}
+.btn-next, .btn-prev {
+    position: absolute;
+    width: 36px;
+    height: 61px;
+    top: 430px
+}
+
+.btn-prev {
+    background: url(../images/left1.png) no-repeat;
+    left: 50%;
+    margin-left: -666px
+}
+
+.btn-next {
+    background: url(../images/right1.png) no-repeat;
+    right: 50%;
+    margin-right: -666px
+}
+.btns .disabled {
+    background: #ccc;
+    color: #fff;
+    border-color: #ccc
+}
+
+
+/*top4结束******************************/
+
+
+
+/*最低端------------------------*/
+.top5 {
+    background: url(../images/top5.png) center top no-repeat;
+    height: 205px
+}
+.tk1 {
+    width: 245px;
+    height: 290px;
+    background: #fff;
+    position: fixed;
+    top: 218px;
+    left: 50%;
+    margin-left: -220px;
+    padding-left: 120px;
+    padding-right: 75px;
+    overflow: hidden
+}
+.tk1 h2 {
+    color: #666;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    padding-top: 57px
+}
+
+.tk1 p, .tk1 span {
+    padding-top: 30px
+}
+
+.tk1 p {
+    color: #666;
+    font-size: 16px
+}
+
+.tk1 span {
+    font-size: 14px;
+    color: #999;
+    display: block
+}
+
+.tk1 .close {
+    color: #fff;
+    font-size: 18px;
+    background: #ff7800;
+    width: 143px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    margin: 30px 0 0 27px
+}
+
+.tk1 .err:before, .tk1:before {
+    content: '';
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 45px;
+    left: 60px
+}
+
+.tk1 .close:hover {
+    background: #f63
+}
+
+.tk1:before {
+    background: url(../images/gou.png) no-repeat
+}
+
+.tk1.err:before {
+    background: url(../images/cuo.png) no-repeat
+}
+
+
+
+
+
+
+
+
+.tk2 {
+    width: 245px;
+    height: 290px;
+    background: #fff;
+    position: fixed;
+    top: 218px;
+    left: 50%;
+    margin-left: -220px;
+    padding-left: 120px;
+    padding-right: 75px;
+    overflow: hidden
+}
+.tk2 h2 {
+    color: #666;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    padding-top: 57px
+}
+
+.tk2 p, .tk2 span {
+    padding-top: 30px
+}
+
+.tk2 p {
+    color: #666;
+    font-size: 16px
+}
+
+.tk2 span {
+    font-size: 14px;
+    color: #999;
+    display: block
+}
+
+.tk2 .close {
+    color: #fff;
+    font-size: 18px;
+    background: #ff7800;
+    width: 143px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    margin: 30px 0 0 27px
+}
+
+.tk2.err:before, .t2k:before {
+    content: '';
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 45px;
+    left: 60px
+}
+
+.tk2 .close:hover {
+    background: #f63
+}
+
+.tk2:before {
+    background: url(../images/cuo.png) no-repeat
+}
+
+.tk2.err:before {
+    background: url(../images/cuo.png) no-repeat
+}
+
+
+
+.top6{
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+/*插件轮播木马*/
+/* Carousel */
+#carousel1 {
+    width:960px;
+    height:400px;
+    overflow:hidden;
+    position:relative;
+    border-bottom:solid 1px #d8d9da;
+    margin:0 auto;
+}
+#carousel1 img {
+    border:none;
+    width:240px;
+    height:180px;
+    border:solid 1px #000;
+}
+#carousel1 #title-text {
+    font-size:22px;
+    margin:10px 20px 0 0;
+    padding:0;
+    text-align:right;
+}
+#carousel1 #alt-text {
+    font-size:14px;
+    margin:5px 20px 0 0;
+    padding:0;
+    text-align:right;
+}
+#carousel1 #user-c {
+    padding:0;
+    position:absolute;
+    right:15px;
+    bottom:10px;
+}
+#carousel1 .carouselLeft, #carousel1 .carouselRight {
+    position:absolute;
+    bottom:20px;
+    width:29px;
+    height:30px;
+    overflow:hidden;
+    cursor:pointer;
+}
+#carousel1 .carouselLeft {
+    right:60px;
+    background:url(images/templatemo_slider_right.png) no-repeat;
+}
+#carousel1 .carouselRight {
+    right:808px;
+    background:url(images/templatemo_slider_left.png) no-repeat;
+}

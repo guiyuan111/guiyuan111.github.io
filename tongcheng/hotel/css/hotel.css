@@ -1,0 +1,492 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-03 01:31:31
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-03 01:59:07
+*/
+
+/*轮播图*/
+.banner {
+    height: 380px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner ul {
+    width: 750%;
+    height: 380px;
+    position: absolute;
+}
+
+.banner li {
+    float: left;
+}
+
+#banner img {
+    margin-left: -250px;
+}
+
+.banner .list {
+    height: 18px;
+    position: absolute;
+    top: 345px;
+    left: 800px;
+}
+
+.list li {
+    float: left;
+    margin: 0 5px;
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    background-color: #38415F;
+    text-align: center;
+    cursor: pointer;
+}
+
+li.bg-color {
+    background-color: #FF7800;
+}
+
+.hot a {
+    margin: 0 5px;
+}
+.hot a:hover{
+    color: #FF7800;
+}
+/*下拉动画*/
+.jilu {
+    background-color: #f5f5f5;
+}
+
+#xiala {
+    display: none;
+    height: 150px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+#kaiguan {
+    position: absolute;
+    right: 100px;
+    top: 553px;
+    width: 30px;
+    height: 20px;
+    background: url("../images/up.png");
+}
+
+.jilu img {
+    width: 210px;
+    height: 99px;
+    margin-top: 25px;
+    margin-left: 400px;
+}
+
+.jilu p {
+    font-size: 18px;
+    position: absolute;
+    top: 65px;
+    right: 210px;
+}
+
+/*搜索框*/
+.banner .input {
+    width: 470px;
+    height: 330px;
+    background-color: #fff;
+    box-shadow: 0 3px 3px #ccc;
+    position: absolute;
+    z-index: 2;
+    top: 25px;
+    left: 115px;
+}
+
+.input ul {
+    width: 470px;
+    height: 49px;
+    border-bottom: 1px solid #ccc;
+    background-color: #F3F3F3;
+}
+
+.input ul li {
+    float: left;
+    margin: 0 30px;
+    padding: 0 10px;
+    font-size: 16px;
+    height: 49px;
+    line-height: 49px;
+}
+
+#huakuai {
+    width: 80px;
+    height: 1px;
+    background-color: #FF7800;
+    position: absolute;
+    top: 49px;
+    left: 30px;
+}
+
+.query {
+    margin-top: 70px;
+    /*ÓÐÎÊÌâ*/
+    float:left;
+}
+div.haha{
+    margin-top: 0px;
+    display: none;
+}
+.query p {
+    margin: 15px 10px;
+}
+
+.query span {
+    font-family: "Ó×Ô²";
+    display: inline-block;
+    width: 50px;
+    margin-left: 20px;
+}
+.query p.hot {
+    margin-top: 35px;
+}
+.hot span {
+    display: inline-block;
+    width: 100px;
+}
+.query .jiechu {
+    width: 30px;
+    margin-left: 0;
+}
+
+.query .long {
+    width: 370px;
+    height: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.query p input {
+    height: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.query .btn1 {
+    width: 180px;
+    height: 40px;
+    background-color: #FF7800;
+    color: #fff;
+    border: 1px solid #FF7800;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 0 20px 0 80px;
+}
+
+.query .btn2 {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #ccc;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+/*酒店推荐*/
+.hotel ul {
+    width: 1200px;
+    overflow: hidden;
+}
+
+.hotel_tit {
+    width: 800px;
+    height: 100px;
+    margin: 40px auto 0;
+    text-align: center;
+}
+
+.hotel_tit ul {
+    width: 755px;
+    margin: 0 auto;
+}
+
+.hotel .hotel_tit li {
+    float: left;
+    margin: 20px 10px 0;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
+.hotel_tit a {
+    display: block;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #666695;
+    font-size: 16px;
+}
+
+a.current {
+    background-color: #FF7800;
+    color: #fff;
+}
+
+.hotel p {
+    font-size: 26px;
+}
+
+.hotel li {
+    float: left;
+    margin: 10px 15px 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+#info_Main .jiade{
+    width: 1200px;
+    height: 520px;
+    margin: 10px 0;
+}
+#info img {
+    width: 385px;
+    height: 250px;
+}
+
+.hotel ul li div {
+    width: 385px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 210px;
+}
+
+.info p span {
+    color: #fff;
+    font-size: 18px;
+    over-flow: hidden;
+}
+
+.info p .price {
+    color: #FF7800;
+    float: right;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.info p {
+    font-size: 12px;
+    color: #fff;
+    margin: 10px 5px 0;
+}
+
+.more {
+    width: 130px;
+    margin: 20px auto;
+    padding: 5px 0;
+    border-radius: 50px;
+    border: 1px solid #666695;
+    text-align: center;
+}
+
+.more:hover {
+    border-color: #FF7800;
+    color: #FF7800;
+    cursor: pointer;
+}
+
+/*景点推荐*/
+.holiday {
+    width: 100%;
+    background-color: #F3F3F3;
+    height: 730px;
+    margin-top: 50px;
+}
+
+.holiday .left {
+    float: left;
+    width: 385px;
+    height: 510px;
+    background-color: #fff;
+    position: relative;
+}
+
+.left span {
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.left div {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 10px solid #fff;
+    background: url("../images/zticon.png") -320px 0;
+    position: absolute;
+    top: 260px;
+    left: 148.5px;
+    background-color: #fff;
+}
+
+.left p {
+    color: #666666;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 45px 10px 0;
+
+}
+
+.holiday .icon li {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 30px 15px 5px;
+}
+.tit{
+    width: 450px;
+    height: 20px;
+    margin:0 auto;
+    color: #666666;
+    font-size: 14px;
+}
+
+.holiday .tit li{
+    float: left;
+    margin: 5px 15px;
+    width: 60px;
+    height: 20px;
+}
+#green li {
+    position: absolute;
+}
+
+.holiday .icon {
+    width: 450px;
+    height: 100px;
+    margin: 30px auto 20px;
+    position: relative;
+}
+
+.holiday .icon .icon1 {
+    background: url("../images/zticon.png") no-repeat;
+}
+
+.holiday .icon .icon2 {
+    background: url("../images/zticon.png") no-repeat 0 -100px;
+}
+
+.holiday .icon .icon3 {
+    background: url("../images/zticon.png") no-repeat 0 -201px;
+}
+
+.holiday .icon .icon4 {
+    background: url("../images/zticon.png") no-repeat 0 -302px;
+}
+
+.holiday .icon .icon5 {
+    background: url("../images/zticon.png") no-repeat 0 -401px;
+}
+
+.holiday .icon .icon11 {
+    background: url("../images/zticon.png") no-repeat -101px 0;
+    /*display: none;*/
+}
+
+.holiday .icon .icon22 {
+    background: url("../images/zticon.png") no-repeat -101px -101px;
+    left: 90px;
+    display: none;
+}
+
+.holiday .icon .icon33 {
+    background: url("../images/zticon.png") no-repeat -101px -202px;
+    left: 180px;
+    display: none;
+}
+
+.holiday .icon .icon44 {
+    background: url("../images/zticon.png") no-repeat -101px -301px;
+    left: 270px;
+    display: none;
+}
+
+.holiday .icon .icon55 {
+    background: url("../images/zticon.png") no-repeat -101px -401px;
+    left: 360px;
+    display: none;
+}
+
+.holiday .right {
+    float: right;
+    width: 795px;
+}
+
+.holiday .right div {
+    float: left;
+    margin: 0 5px 10px;
+    background-color: #fff;
+}
+
+.right p {
+    margin: 10px 5px;
+}
+
+.right span {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 10px;
+}
+.jing {
+    width: 1200px;
+    height: 520px;
+}
+
+.small{
+    height: 200px;
+    margin: 50px 0 30px;
+    position: relative;
+    overflow: hidden;
+    left: 75px;
+}
+.small li{
+    float: left;
+    margin-right: 10px;
+}
+.small ul{
+    float: left;
+    width: 1200px;
+}
+.arrow {
+    height: 150px;
+    position: absolute;
+    top:0;
+}
+.arr_left{
+    float: left;
+}
+.arr_right{
+    float: right;
+    margin-right: 10px;
+}
+.xiangkuang{
+    width: 400%;
+    position: absolute;
+}
+.pingpai {
+    width: 200px;
+    margin: 20px auto 0;
+    font-size: 24px;
+    font-weigth: 700;
+    text-align: center;
+}
+
+.service {
+    height: 100px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.service li{
+    float: left;
+    margin: 10px 0 0 125px;
+}

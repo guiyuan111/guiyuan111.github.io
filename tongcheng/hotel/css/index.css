@@ -1,0 +1,412 @@
+.jingdian{
+    margin-top: 50px;
+
+}
+
+/*上面盒子部分*/
+.jingdian .top_j{
+    height: 36px;
+    border-bottom: 2px solid #EEEEEE;
+    position: relative;
+}
+/*左侧部分*/
+.jingdian .top_j .l_li{
+    width: 100px;
+    height: 36px;
+    border-bottom: 2px solid #50B400;
+    text-align: center;
+    line-height: 36px;
+
+}
+.jingdian .top_j .l_li a{
+    width: 100px;
+    height: 36px;
+}
+.jingdian .top_j h1{
+    font-size: 20px;
+    font-family: 微软雅黑;
+    font-weight: 700;
+    color: #50B400;
+}
+/*小三角*/
+.jingdian .top_j .l_li .sanjiao:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-bottom: 5px solid #50B400;
+    border-top: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-right:5px solid transparent;
+    position: absolute;
+    top: 26px;
+    left: 44px;
+}
+
+/*右侧部分*/
+.jingdian .r_pp{
+    position: relative;
+}
+
+
+.jingdian .top_j .r_li {
+    width: 100px;
+    height: 36px;
+}
+.jingdian .top_j .r_li a{
+    width: 100px;
+    height: 36px;
+    display: block;
+    color: #666;
+    line-height: 36px;
+    font-size: 14px;
+}
+
+/*下面部分  图片*/
+.jingdian .bot_j {
+    height: 432px;
+}
+.jingdian .bot_j ul{
+    width: 968px;
+    height: 432px;
+}
+
+.jingdian .bot_j .l_tu li{
+    width: 222px;
+    height: 184px;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: left;
+    position: relative;
+}
+.jingdian .bot_j li img{
+    width: 222px;
+    height: 140px;
+}
+.jingdian .bot_j li a span{
+    width: 212px;
+    height: 26px;
+    line-height: 26px;
+    display: block;
+    padding-left: 10px;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 114px;
+    left: 0;
+}
+.jingdian .bot_j .l_tu .btn_s{
+    width: 222px;
+    height: 44px;
+    line-height: 44px;
+    background-color: #F5F5F5;
+}
+.jingdian .bot_j .l_tu .btn_s .b_b1{
+    margin-left: 10px;
+    font: 14px;
+    color: #666666;
+}
+.jingdian .bot_j .l_tu .btn_s .b_b2{
+    margin-right: 10px;
+}
+.jingdian .bot_j .l_tu .btn_s .b_b2 .s1{
+    font-size: 14px;
+    font-weight: 700;
+    color: #FF6633;
+    margin-right: 2px;
+}
+.jingdian .bot_j .l_tu .btn_s .b_b2 .s2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FF6633;
+    margin-right: 2px;
+}
+.jingdian .bot_j .l_tu .btn_s .b_b2 .s3{
+    font-size: 12px;
+    color: #999999;
+    margin-right: 2px;
+}
+/*右侧盒子   上部分*/
+.jingdian .bot_j .r_top {
+    width: 222px;
+    height: 184px;
+    position: absolute;
+    top: 20px;
+    right: -12px;
+}
+.jingdian .bot_j .r_top h4{
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #5F3333;
+}
+.jingdian .bot_j .r_top  ul{
+    width: 222px;
+}
+.jingdian .bot_j .r_top  li{
+    font-size: 10px;
+    padding: 5px 9px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 5px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    float: left;
+}
+/*中间部分*/
+.jingdian .bot_j .r_mid{
+    width: 222px;
+    height: 90px;
+    position: absolute;
+    top: 210px;
+    right: -12px;
+}
+.jingdian .bot_j .r_mid h4{
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #5F3333;
+}
+
+.jingdian .bot_j .r_mid ul{
+    width: 222px;
+}
+.jingdian .bot_j .r_mid ul li{
+    margin-right: 20px;
+    margin-bottom: 14px;
+    float: left;
+}
+
+/*下面盒子*/
+.jingdian .bot_j .r_btn {
+    margin-top: 10px;
+    height: 110px;
+    width: 222px;
+    position: absolute;
+    right: -12px;
+    top: 300px;
+}
+.jingdian .bot_j .r_btn .a1{
+    width: 65px;
+    height: 65px;
+    display: block;
+    background: url("../images/REZeuZ.png") no-repeat;
+}
+.jingdian .bot_j .r_btn .dv1{
+    position: absolute;
+    top: 20px;
+    right: 70px;
+}
+.jingdian .bot_j .r_btn .dv1 s{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "微软雅黑";
+    color: #E2663C;
+}
+.jingdian .bot_j .r_btn .dv1 p{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #A3A5D0;
+}
+
+
+/*左侧固定部分*/
+.l_fix{
+    width: 40px;
+    background-color: #333333;
+    position: fixed;
+    top: 78px;
+    left: 20px;
+}
+
+.l_fix li{
+    width: 40px;
+    font-size: 12px;
+}
+.l_fix li a{
+    /*width: 32px;*/
+    display: block;
+    padding: 4px 6px;
+    text-align: center;
+    border-bottom: 1px dashed #DDDDDD;
+
+}
+.l_fix li .gonglue{
+    width: 32px;
+    display: block;
+    padding: 2px 4px;
+    text-align: center;
+    border-bottom: 0px;
+}
+
+
+
+
+/*右侧固定部分*/
+.r_fix{
+    width: 40px;
+    height: 662px;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.r_fix .t_t_1{
+    width: 200px;
+    height: 230px;
+    position: absolute;
+    top: 0px;
+    right: 40px;
+    display: none;
+}
+.r_fix .t_t_1 img{
+    width: 200px;
+    height: 230px;
+
+}
+.r_fix ul{
+
+}
+
+.r_fix ul li{
+    padding: 4px 0;
+    margin-top: 14px;
+    text-align: center;
+    width: 40px;
+    height: 47px;
+    line-height: 47px;
+    display: block;
+
+
+
+}
+.r_fix  ul li a{
+width: 40px;
+height: 47px;
+display: block;
+
+
+}
+.r_fix  ul li a span{
+    width: 88px;
+    height: 46px;
+    background-color: #333333;
+     float: right;
+    margin-top: -46px;
+    margin-right: 40px;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 46px;
+    display: none;
+}
+.r_fix  ul .btn_li{
+    position: relative;
+
+}
+
+.r_fix  ul li i{
+    width: 40px;
+    height: 47px;
+    display: block;
+    color: #ACACAC;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.r_fix  ul li span:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #333333;
+    border-right:5px solid transparent;
+    position: absolute;
+    left: 0px;
+    margin-top: -28px;
+}
+.r_fix  ul .btn_li span{
+    width: 180px;
+    height: 235px;
+
+    background-image: url("../images/shoujitc.png") ;
+    position: absolute;
+    top: -108px;
+    right: 0px;
+
+}
+.r_fix  ul .btn_li span:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #333333;
+    border-right:5px solid transparent;
+    position: absolute;
+    left: 180px;
+    top: 204px;
+}
+
+.r_fix  ul li a .hid{
+    display: none;
+}
+.r_fix  ul li a .blk{
+    display: block;
+}
+
+
+
+
+.meiyong{
+    height: 900px;
+    background-color: pink;
+    margin-top: 40px;
+    border: 1px solid red;
+}
+#tehui{
+    height: 520px;
+
+    margin-top: 40px;
+    border: 1px solid red;
+}
+#zhoubian{
+    height: 520px;
+    background-color: yellow;
+    margin-top: 40px;
+    border: 1px solid red;
+}
+#guonei{
+   height: 400px;
+    margin-top: 40px;
+    border: 1px solid red;
+
+}
+#chujing{
+    height: 430px;
+    background-color: yellow;
+    border: 1px solid red;
+    margin-top: 40px;
+
+}
+#youlun{
+height: 400px;
+    border: 1px solid red;
+    margin-top: 40px;
+}
+#jiudian{
+    height: 520px;
+    background-color: orange;
+    border: 1px solid red;
+    margin-top: 40px;
+}
+#gonglue{
+    height: 800px;
+    background-color: #404040;
+    border: 1px solid red;
+    margin-top: 40px;
+
+}

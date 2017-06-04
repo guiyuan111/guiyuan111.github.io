@@ -1,0 +1,351 @@
+/*顶部导航开始*/
+.head_nav1 {
+    height: 28px;
+    line-height: 28px;
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #ccc;
+}
+.head_nav2 .nav2-l {
+    float:left
+}
+.head_nav2 .nav2-l span {
+    margin-right: 10px;
+    color: #999999;
+    font-family: "微软雅黑";
+}
+.head_nav2 .nav2-l a:hover {
+    color: #FF6600;
+}
+.head_nav2 .nav2-r {
+    float:right;
+}
+.head_nav2 .nav2-r ul {
+    float:left;
+}
+.head_nav2 .nav2-r li {
+    float:left;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.head_nav2 .nav2-r li:hover {
+    box-shadow: 0 0 16px 0 #ccc;
+    background-color: #fff;
+}
+.head_nav2 .nav2-r li:hover i {
+    background-position: -15px 0;
+}
+.head_nav2 .nav2-r .tc-a {
+    height: 28px;
+    display: block;
+    padding:0 20px;
+    position: relative;
+    font-family: "微软雅黑";
+}
+.head_nav2 .nav2-r ul li i {
+    width:10px;
+    height: 5px;
+    display: block;
+    background: url("../../images/top_bg.png") -15px -5px;
+    position: absolute;
+    top: 11px;
+    right: 8px;
+}
+.head_nav2 .nav2-r .ph {
+    width: 14px;
+    height: 19px;
+    vertical-align: middle;
+    margin: 0 8px 0 0;
+    display: inline-block;
+    background: url("../../images/top_bg.png");
+}
+/*我的同程*/
+.open {
+    display: block;
+}
+.head_nav1 .nav2-r .mytc {
+    width: 192px;
+    /*height: 114px;*/
+    height: 0;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    background-color: #fff;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 10px 16px 0 #ccc;
+}
+.head_nav1 .nav2-r .mytc .mytc-top-p1 {
+    height: 35px;
+    line-height: 35px;
+    background: url("../../images/mytcbg.png") no-repeat 0 -248px;
+    padding-left: 45px;
+    margin: 10px 0 10px 15px;
+}
+.head_nav1 .nav2-r .mytc .mytc-top a {
+    color: blue;
+}
+.head_nav1 .nav2-r .mytc .mytc-btm .mytc-btm1 {
+    float: left;
+    width: 58px;
+    line-height: 20px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+    /*background-color: red;*/
+    border-right: 1px solid #ccc;
+}
+.head_nav1 .nav2-r .mytc .mytc-btm .mytc-btm2 {
+    float: left;
+    width: 58px;
+    line-height: 20px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+    /*background-color: red;*/
+}
+/*手机同程*/
+
+.head_nav1 .nav2-r .sjtc {
+    width: 180px;
+    /*height: 235px;*/
+    height: 0;
+    background: url("../../images/shoujitc.png") no-repeat;
+    position: absolute;
+    top: 28px;
+    left: -18px;
+    z-index: 1;
+    overflow: hidden;
+    /*box-shadow: 0 10px 16px 0 #ccc;*/
+}
+/*微信*/
+.head_nav1 .nav2-r .weixin {
+    width: 316px;
+    /*height: 154px;*/
+    height: 0;
+    background: url("../../images/top_bg.png") no-repeat 0 -134px;
+    position: absolute;
+    right: 0;
+    top: 28px;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 10px 16px 0 #ccc;
+}
+/*电话*/
+.head_nav1 .nav2-r .dianhua {
+    width: 223px;
+    /*height: 58px;*/
+    height: 0;
+    padding-left: 15px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 28px;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 10px 16px 0 #ccc;
+}
+.head_nav1 .nav2-r .dianhua p {
+    margin-top: 12px;
+    line-height: 15px;
+}
+/*客户服务*/
+.head_nav1 .nav2-r .kehu {
+    width: 88px;
+    /*height: 98px;*/
+    height: 0;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 28px;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 10px 16px 0 #ccc;
+}
+.head_nav1 .nav2-r .kehu li {
+    box-shadow: none;
+}
+.head_nav1 .nav2-r .kehu a {
+    width: 88px;
+    display: block;
+    line-height: 24px;
+    text-align: center;
+}
+.head_nav1 .nav2-r .kehu a:hover {
+    background-color: #efefef;
+}
+/*合作中心*/
+.head_nav1 .nav2-r .hezuo {
+    width: 88px;
+    /*height: 98px;*/
+    height: 0;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 28px;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 10px 16px 0 #ccc;
+}
+.head_nav1 .nav2-r .hezuo li {
+    box-shadow: none;
+}
+.head_nav1 .nav2-r .hezuo a {
+    width: 88px;
+    display: block;
+    line-height: 24px;
+    text-align: center;
+}
+.head_nav1 .nav2-r .hezuo a:hover {
+    background-color: #efefef;
+}
+/*顶部导航结束*/
+
+
+/*logo部分开始*/
+.logo {
+    height: 89px;
+    /*background-color: pink;*/
+}
+.logo2 .logo2-logo {
+    float: left;
+}
+.logo2 .logo2-logo .logo-left {
+    width: 230px;
+    height: 89px;
+    display: block;
+    margin-left: -25px;
+    text-indent: -9999px;
+    background: url("../../images/logo.png") no-repeat;
+}
+.logo2 .logo2-adr {
+    float: left;
+    /*background-color: red;*/
+    height: 50px;
+    margin-top: 17px;
+    position: relative;
+}
+.logo2 .logo2-adr .beijing {
+    width: 50px;
+    height: 50px;
+    line-height: 63px;
+    color: black;
+    font-size: 20px;
+    padding: 0 10px;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+}
+.logo2 .logo2-adr a i {
+    width: 11px;
+    height: 7px;
+    display: block;
+    background: url("../../images/top_bg.png") no-repeat -15px -10px;
+    position: absolute;
+    top: 28px;
+    right: 5px;
+}
+.logo2-adr .dv-dd .send-area .item a {
+    float: left;
+    width: 60px;
+    height: 24px;
+    line-height: 24px;
+    padding: 2px 0;
+    font-size: 12px;
+}
+#currentArea {
+    color: #50B400;
+}
+/*隐藏的城市地址*/
+.logo2 .logo2-adr .send-area{
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: 50px;
+    width: 395px;
+    height: 170px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 16px 0 #ccc;
+    display: none;
+}
+.logo2-search {
+    float: right;
+}
+.logo2-search .logo2-search-left {
+    float: left;
+    margin-right: 70px;
+}
+.logo2-search .logo2-search-left .input {
+    margin-top: 25px;
+    font-family: "微软雅黑";
+    position: relative;
+}
+.logo2-search .logo2-search-left .input p {
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.logo2-search-left .input .dv p img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+}
+.logo2-search-left .input .dv p img a {
+
+}
+.logo2-search .logo2-search-left .input .dv{
+    width: 460px;
+    background-color: #fff;
+    z-index: 500;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.logo2-search-left .input .dv p {
+    margin-top: 6px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 2px;
+}
+
+.logo2-search .logo2-search-left .input .txt {
+    width: 460px;
+    height: 32px;
+    font-family: "微软雅黑";
+    border: 2px solid #FF6815;
+    padding-left: 6px;
+    color: #666666;
+    float: left;
+}
+.logo2-search .logo2-search-left .input .btn {
+    float: left;
+    width: 87px;
+    height: 36px;
+    background-color: #FF6815;
+    font-family: "微软雅黑";
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.logo2-search .logo2-search-left .sanya {
+    float: left;
+    margin-top: 3px;
+}
+.logo2-search .logo2-search-left .sanya a {
+    margin-right: 10px;
+    font-family: "微软雅黑";
+}
+.logo2-search .logo2-search-right {
+    float: left;
+}
+/*logo部分结束*/
+
+
+

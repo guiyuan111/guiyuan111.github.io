@@ -1,0 +1,170 @@
+
+.footer .footer-mid{
+    height: 195px;
+    background-color:#EAEAEA;
+    /*width: 1190px;*/
+    border-bottom: 1px dashed #ccc;
+}
+
+
+.footer .footer-mid .yijian{
+    float: left;
+    position: relative;
+}
+.footer .footer-mid .yijian dt{
+
+    width: 44px;
+    height: 40px;
+    background:url("../images/top_bg.png") no-repeat 0 -296px;
+    position: relative;
+}
+.footer .footer-mid .yijian dd{
+    font-size: 12px;
+    width: 87px;
+    position: absolute;
+    float: left;
+    left: 49px;
+    top: 12px;
+}
+.footer .footer-mid .rexian{
+    float: left;
+    position: relative;
+}
+.footer .footer-mid .rexian dt{
+    width: 44px;
+    height: 44px;
+    background: url("../images/top_bg.png") no-repeat -47px -297px;
+    position: absolute;
+    top: 57px;
+    left: -42px;
+}
+.footer .footer-mid .rexian dd{
+    font-size: 12px;
+    width: 87px;
+    position: absolute;
+    left: 7px;
+    top: 61px;
+}
+.footer .footer-mid ul {
+    /*width: 200px;*/
+    font-size: 12px;
+    margin-left: 150px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+    float: left;
+}
+.footer .footer-mid ul a{
+    font-size: 12px;
+    color:#999999 ;
+}
+
+.footer .footer-mid ul a:hover{
+    color: #999999;
+}
+.footer .footer-mid ul h4{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 0 5px;
+    color: #333;
+}
+.footer .footer-mid ul a{
+    font-size: 12px;
+    height: 20px;
+    line-height: 25px;
+    position: relative;
+}
+.footer .footer-mid .jiameng i{
+    font-size: 12px;
+    width: 71px;
+    height: 17px;
+    display: inline-block;
+    position: absolute;
+    left: 53px;
+    top: -2px;
+    background: url("../images/r4_c2.png") no-repeat;
+}
+.footer .footer-mid .qixia .lvyou{
+    width: 90px;
+    height: 28px;
+    display: block;
+    background: url("../images/top_bg.png") no-repeat -171px 0;
+    margin-top: 5px;
+}
+.footer .footer-mid .qixia .yiqi{
+    width: 90px;
+    height: 28px;
+    display: block;
+    background: url("../images/top_bg.png") no-repeat -171px -40px;
+    margin-top: 10px;
+}
+.footer .footer-mid .qixia .lvjiao{
+    width: 84px;
+    height: 28px;
+    display: block;
+    background: url("../images/top_bg.png") no-repeat -171px -80px;
+    margin-top: 10px;
+}
+.footer .footer-bot{
+    background-color: #EAEAEA;
+    overflow: hidden;
+
+
+}
+.footer .footer-bot .severse ul{
+    font-size: 12px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+.footer .footer-bot .severse li{
+    font-size: 12px;
+    height: 23px;
+    color: #999999;
+}
+.footer .footer-bot .severse li em{
+    font-size: 12px;
+    color: #f60;
+    margin-right: 3px;
+}
+.footer .footer-bot  dt{
+    font-size: 12px;
+    float: left;
+    width: 68px;
+    line-height: 23px;
+    color: #BBBBBB;
+    font-weight: 700;
+    text-align: left;
+}
+.footer .footer-bot  dd{
+    font-size: 12px;
+    float: left;
+    width: 1090px;
+    line-height: 23px;
+}
+.footer .footer-bot  dd a{
+    font-size: 12px;
+    display: inline-block;
+    margin: 0 9px 0 0;
+    color: #BBBBBB;
+}
+.footer .footer-bot .copyright{
+    font-size: 12px;
+    margin-top: 23px;
+    color: #999999;
+}
+.footer .footer-bot .copyright em{
+
+    color: #FF6600;
+}
+.footer .footer-bot .copyright a{
+    height: 20px;
+    line-height: 20px;
+    display: inline;
+    color: #999999;
+}
+.footer .footer-bot .copyright a:hover{
+    color:#FF6600;
+}
+
+
+

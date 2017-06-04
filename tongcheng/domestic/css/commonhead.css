@@ -1,0 +1,186 @@
+/*顶部最上的盒子开始*/
+.top {
+    height: 28px;
+    line-height: 28px;
+    background-color: #FAFAFA;
+    font-size: 12px;
+    border-bottom: 1px solid #F1F1F1;
+}
+.top .topLogin{
+    float: left;
+    width: 786px;
+    height: 28px;
+}
+.top .topLogin a{
+    margin: 0 4px;
+}
+.top .topLogin a:hover {
+    color: #ED710C;
+}
+.top .topLogin .login {
+    color: #ED710C;
+}
+.top .topNav {
+    float: right;
+    position: relative;
+}
+.top .topNav div {
+    display: none;
+    position: absolute;
+    top: 28px;
+    left: -20px;
+    z-index: 100;
+}
+.top .topNav .one {
+    width: 192px;
+    background-color: #fff;
+}
+.top .topNav .one-top {
+    height: 62px;
+}
+.top .topNav li {
+    float: left;
+    padding: 0 20px;
+    position: relative;
+}
+.top .topNav li .tehui {
+}
+
+
+.topNav li i {/*箭头*/
+    position: absolute;
+    width: 7px;
+    height: 5px;
+    top: 10px;
+    right: 10px;
+    background: url("../images/top_bg.png") -15px -4px;
+}
+.topNav li b {
+    position: absolute;
+    left: 2px;
+    top: 4px;
+    width: 14px;
+    height: 20px;
+    background: url("../images/top_bg.png") 0 0;
+}
+/*顶部最上的盒子结束*/
+/*顶部中间的盒子开始*/
+.middle .logo {/*logo*/
+    float: left;
+}
+.middle .logo a{
+    display: block;
+    height: 89px;
+    width: 230px;
+    background-image: url("../images/logo.png");
+    text-indent: -9999px;
+}
+.middle .area {/*地址*/
+    font-size: 20px;
+    float: left;
+    margin-top: 24px;
+    margin-left: 60px;
+    width: 74px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+.middle .area i {
+    position: absolute;
+    top: 2px;
+    left: 40px;
+    font-weight: 700;
+}
+
+.middle .puts {/*搜索框*/
+    width: 576px;
+    float: left;
+    border: 3px solid #FF7800;
+    margin-top: 20px;
+}
+.middle .puts .int {
+    height: 34px;
+    width: 483px;
+    float: left;
+    color: #938080;
+    font-size: 14px;
+}
+.middle .puts .btn {
+    float: right;
+    height: 34px;
+    width: 86px;
+    background-color: #FF7800;
+    color: #FFF;
+    font-size: 16px;
+}
+.middle .wei {
+    float: left;
+    margin-top: 10px;
+}
+/*顶部中间的盒子结束*/
+/*顶部导航开始*/
+.menu {
+    height: 46px;
+    background-color: #4C5A65;
+}
+.menu li {
+    float: left;
+    height: 46px;
+    line-height: 46px;
+}
+.menu .green {
+    background-color: #50B400;
+}
+.menu li a {
+    padding: 0 11px;
+    color: #FFF;
+    font-size: 16px;
+    position: relative;
+}
+.menu li a:after {
+    content: "";
+    height: 18px;
+    width: 1px;
+    background-color: #5E6A74;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.menu li i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 11px;
+    height: 6px;
+    background: url("../images/top_bg.png") -15px -10px;
+}
+/*顶部导航结束*/
+
+
+/*顶部子导航开始*/
+.submenu {
+    height: 46px;
+    border-bottom: 1px solid #F1F1F1;
+    line-height: 46px;
+}
+.submenu .current {
+    display: block;
+}
+.submenu .domestic {
+    margin-left: 255px;
+}
+.submenu li {
+    float: left;
+}
+.submenu li a {
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+.submenu li .current {
+    color: #59B80D;
+    border-bottom: 2px solid #59B80D;
+}
+/*顶部子导航结束*/
+
+

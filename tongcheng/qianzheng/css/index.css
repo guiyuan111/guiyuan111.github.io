@@ -1,0 +1,799 @@
+/*广告部分开始*/
+.banner {
+    position: relative;
+}
+
+.banner .guanggao {
+    /*height: 460px;*/
+    margin: 46px auto 20px;
+    /*background-color: pink;*/
+
+}
+
+/*搜索框*/
+.searchbox {
+    width: 860px;
+    height: 48px;
+    float: right;
+}
+
+.search-box {
+    width: 703px;
+    height: 40px;
+    position: relative;
+    border: 4px solid #FF7800;
+    border-right: 0;
+    float: left;
+}
+
+.serch-line {
+    width: 141px;
+    height: 100%;
+    float: left;
+    border-right: solid 4px #ff7800;
+    background: #FFF;
+    position: relative;
+}
+
+.search-box .serch-line .jian {
+    width: 33px;
+    height: 34px;
+    display: block;
+    float: right;
+    background: url("../images/visa_icon.png") no-repeat 0 -417px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.search-box .serch-line .sjian {
+    width: 33px;
+    height: 34px;
+    display: none;
+    float: right;
+    background: url("../images/visa_icon.png") no-repeat 0 -458px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.search-box input {
+    float: left;
+    width: 125px;
+    height: 26px;
+    line-height: 26px;
+    display: block;
+    padding-left: 15px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    margin-top: 5px;
+    background: #fff;
+    color: #333;
+
+}
+
+.visa_type {
+    width: 135px;
+    padding: 5px 0 5px 15px;
+    position: absolute;
+    top: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 16px 2px rgba(0, 0, 0, .2);
+    z-index: 10;
+    display: none;
+}
+
+.visa_type li {
+    font-size: 14px;
+    line-height: 30px;
+    color: #333;
+    cursor: pointer;
+}
+
+.visa_type i {
+    position: absolute;
+    display: block;
+    height: 0;
+    width: 0;
+    border-color: transparent transparent #fff;
+    border-style: dashed dashed solid;
+    border-width: 8px;
+    top: -16px;
+    left: 35px;
+}
+
+.search-box .search-input {
+    width: 490px;
+    float: left;
+    font-size: 14px;
+    color: #999;
+    font-family: "微软雅黑";
+    line-height: 36px;
+    padding-left: 20px;
+}
+
+.searchbox .serchbtn {
+    height: 48px;
+    width: 153px;
+    color: #fff;
+    background-color: #ff7800;
+    cursor: pointer;
+    float: left;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.lunbo {
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    position: relative;
+}
+
+.lunbo .lunbotu {
+    float: left;
+    position: absolute;
+    width: 1500%;
+}
+
+.lunbo .lunbotu li {
+    float: left;
+    /*width: 100%;*/
+}
+
+.lunbo img {
+    margin-left: -285px;
+}
+
+.slder-item {
+    position: absolute;
+    left: 615px;
+    bottom: -10px;
+    height: 45px;
+    float: right;
+}
+
+.slder-item .current {
+    background-color: #FF6600;
+}
+
+.slder-item li {
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    background-color: #38415F;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-right: 4px;
+    float: left;
+    cursor: pointer;
+}
+
+.banner .hotvisa {
+    width: 309px;
+    height: 459px;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    left: 80px;
+    top: 22px;
+    /*z-index: 100;*/
+    border: 4px solid #50B400;
+}
+
+.banner .hotvisa h1 {
+    width: 100%;
+    height: 44px;
+    font-size: 20px;
+    line-height: 44px;
+    color: #fff;
+    text-align: center;
+    background-color: #50B400;
+}
+
+.hotvisa .ul-hotvisa {
+    padding-left: 4px;
+}
+
+.hotvisa .ul-hotvisa li {
+    width: 300px;
+    height: 68px;
+    /*background-color: yellow;*/
+    border-bottom: 1px dashed #cccccc;
+    position: relative;
+}
+
+.hotvisa .ul-hotvisa li .i1 {
+    width: 28px;
+    height: 24px;
+    display: block;
+    background: url("../images/visadesd1.png") no-repeat;
+    position: relative;
+    left: 10px;
+    top: 14px;
+}
+
+.hotvisa .ul-hotvisa li .i2 {
+    width: 28px;
+    height: 24px;
+    display: block;
+    background: url("../images/visadesd2.png") no-repeat;
+    position: relative;
+    left: 10px;
+    top: 14px;
+}
+
+.hotvisa .ul-hotvisa li .i3 {
+    width: 28px;
+    height: 24px;
+    display: block;
+    background: url("../images/visadesd3.png") no-repeat;
+    position: relative;
+    left: 10px;
+    top: 14px;
+}
+
+.hotvisa .ul-hotvisa li .i4 {
+    width: 28px;
+    height: 24px;
+    display: block;
+    background: url("../images/visadesd4.png") no-repeat;
+    position: relative;
+    left: 10px;
+    top: 14px;
+}
+
+.hotvisa .ul-hotvisa li .i5 {
+    width: 28px;
+    height: 24px;
+    display: block;
+    background: url("../images/visadesd5.png") no-repeat;
+    position: relative;
+    left: 10px;
+    top: 14px;
+}
+
+.hotvisa .ul-hotvisa li .i6 {
+    width: 28px;
+    height: 24px;
+    display: block;
+    background: url("../images/visadesd6.png") no-repeat;
+    position: relative;
+    left: 10px;
+    top: 14px;
+}
+
+.hotvisa .ul-hotvisa li p {
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    left: 44px;
+    top: 17px;
+    cursor: pointer;
+}
+
+.hotvisa .ul-hotvisa li dl {
+    font-size: 14px;
+    position: absolute;
+    left: 46px;
+    top: 42px;
+}
+
+.hotvisa .ul-hotvisa li dl a:hover {
+    color: #FF7800;
+}
+
+.hotvisa .ul-hotvisa li dl a {
+    padding-right: 18px;
+}
+
+.banner .visahot {
+    position: relative;
+    display: none;
+
+}
+
+.banner .visahot .show {
+    display: block;
+}
+
+.banner .visahot .hide {
+    display: none;
+}
+
+.bannercurrent {
+    display: block;
+    position: absolute;
+    z-index: 101;
+    left: 371px;
+    top: 70px;
+}
+
+.banner .visahot .img1 {
+    float: left;
+    position: absolute;
+    top: -400px;
+    left: 371px;
+    z-index: 101;
+}
+
+.banner .visahot .img2 {
+    float: left;
+    position: absolute;
+    top: -332px;
+    left: 371px;
+    z-index: 101;
+}
+
+.banner .visahot .img3 {
+    float: left;
+    position: absolute;
+    top: -263px;
+    left: 371px;
+    z-index: 101;
+}
+
+.banner .visahot .img4 {
+    float: left;
+    position: absolute;
+    top: -193px;
+    left: 371px;
+    z-index: 101;
+}
+
+.banner .visahot .img5 {
+    float: left;
+    position: absolute;
+    top: -124px;
+    left: 371px;
+    z-index: 101;
+}
+
+.banner .visahot .img6 {
+    float: left;
+    position: absolute;
+    top: -56px;
+    left: 371px;
+    z-index: 101;
+}
+
+.visasent {
+    margin-top: 30px;
+}
+
+.wrapper {
+    position: relative;
+    /*background-color: pink;*/
+}
+
+.wrapper .morevisa {
+    position: absolute;
+    top: 0px;
+    right: 228px;
+}
+
+.wrapper .morevisa a {
+    color: #005BB5;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+
+.wrapper .morevisa a:hover {
+    color: #FF7800;
+}
+
+.tab {
+    margin: 20px 0;
+    height: 18px;
+    width: 320px;
+}
+
+.tab li {
+    float: left;
+    width: 43px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    margin-right: 20px;
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.products {
+    width: 962px;
+    height: 388px;
+}
+
+.products .main {
+    float: left;
+    display: none;
+}
+
+.products .main.selected {
+    display: block;
+}
+
+.tab .active {
+    background: #8c96a2;
+    color: #fff;
+}
+
+.hot-shop {
+    width: 979px;
+    height: 98px;
+    /*border-bottom:1px dashed #898989 ;*/
+}
+
+.hotshop-ul {
+    width: 979px;
+    height: 320px;
+    /*background: pink;*/
+}
+
+.visahelp .visa-help {
+    margin-top: 40px;
+}
+
+.visahelp .visa-help a {
+    color: #005BB5;
+    font-size: 13px;
+    font-family: "微软雅黑";
+}
+
+.visahelp .visa-help a:hover {
+    color: #FF7800;
+}
+
+.visa-help-box {
+    width: 1188px;
+    /*height: 151px;*/
+    margin-bottom: 100px;
+    border: 1px solid #E8E8E8;
+}
+
+.visa-help-box .listdian {
+    width: 100%;
+    height: 20px;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    /*background-color: pink;*/
+}
+
+.visa-help-box .listdian ul {
+    margin-left: 542px;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    text-align: center;
+}
+
+.visa-help-box .listdian li {
+    width: 30px;
+    float: left;
+    margin-right: 5px;
+    color: #D2ECFF;
+    cursor: pointer;
+
+}
+
+.listdian ul .active {
+
+    color: #1D9EFD;
+}
+
+.questions .main {
+    float: left;
+    display: none;
+}
+
+.questions .main.selected {
+    display: block;
+}
+
+.dingdan {
+    border: 1px solid #E8E8E8;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.body-banner{
+    margin-top: 496px;
+    z-index: 0;
+}
+
+.w {
+    position: relative;
+}
+
+.jindu {
+    width: 220px;
+    height: 200px;
+    /*background-color: pink;*/
+    position: absolute;
+    top: 280px;
+    right: -18px;
+}
+
+.jindu .dingdanhao {
+    width: 150px;
+    height: 28px;
+    padding-left: 6px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+}
+
+.jindu .shoujihao {
+    width: 150px;
+    height: 28px;
+    padding-left: 6px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.jindu .yanzhengma {
+    width: 54px;
+    height: 28px;
+    padding-left: 6px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.jindu .yzm {
+    width: 56px;
+    height: 24px;
+    margin-top: 8px;
+    border: 2px solid #ccc;
+}
+
+.jindu .shuaxin {
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    background-color: #f5f5f5;
+    font-weight: 700;
+    color: #329BCF;
+    border-radius: 3px;
+    position: absolute;
+    top: 81px;
+}
+
+.jindu .chaxun {
+    width: 125px;
+    height: 28px;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    line-height: 28px;
+    background-color: #FF7800;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 3px;
+    margin-top: 26px;
+    margin-left: 50px;
+}
+
+.jindu .forget {
+    display: block;
+    margin-top: 18px;
+    margin-left: 144px;
+    color: #999999;
+}
+
+.jindu .forget:hover {
+    color: #FF7800;
+}
+
+.rzbanli {
+    position: absolute;
+    top: 495px;
+    right: 0px;
+}
+
+.rxpaihang {
+    width: 213px;
+    height: 500px;
+    /*background-color: pink;*/
+    position: absolute;
+    top: 580px;
+    right: 0px;
+}
+
+.rxpaihang h3 {
+    height: 40px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.rxpaihang .ul-list {
+    overflow: hidden;
+}
+
+.rxpaihang .ul-list li {
+    font-size: 12px;
+    color: #666;
+    float: left;
+    margin-top: 10px;
+    margin-left: 8px;
+    display: block;
+    cursor: pointer;
+    width: 182px;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.rxpaihang .ul-list li a:hover {
+    color: #FF7800;
+}
+
+.rxpaihang .ul-list i {
+    width: 12px;
+    height: 12px;
+    background-color: #8c96a2;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 12px;
+    margin-top: 4px;
+    margin-right: 8px;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.rxpaihang .ul-list .ul-list-i1 {
+    background-color: #ea4126;
+}
+
+.rxpaihang .ul-list .ul-list-i2 {
+    background-color: #ff8400;
+}
+
+.rxpaihang .ul-list .ul-list-i3 {
+    background-color: #ffae00;
+}
+
+.top4 {
+    height: 320px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+
+}
+
+.mSlider {
+    /*width: 100%;*/
+    /*height: 525px;*/
+    position: relative;
+    padding-top: 148px
+}
+
+.mSlider_con {
+    width: 979px;
+    height: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+    /*border-bottom: 1px dashed #bbb;*/
+    position: absolute;
+    top: -3px;
+    left: -3px;
+}
+
+.mSlider_con .slider_ul {
+    width: 979px;
+    height: 320px;
+    position: relative;
+    overflow: hidden
+
+}
+
+.mSlider_con .slider_ul li {
+    float: left;
+    width: 225px;
+    height: 320px;
+    margin-right: 18px;
+    position: relative;
+    left: 0;
+}
+
+.mSlider_con .slider_ul li .info {
+    position: absolute;
+    top: 180px;
+}
+
+.zuixin {
+    width: 213px;
+    height: 235px;
+    /*background-color: pink;*/
+    position: absolute;
+    bottom: 490px;
+    right: 0px;
+}
+
+.zuixin h3 {
+    height: 40px;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.myscroll {
+    width: 213px;
+    height: 170px;
+    margin: 0 auto;
+    /*border: 1px solid #ccc;*/
+    line-height: 23px;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+
+.myscroll li {
+    height: 56px;
+    margin-left: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.myscroll a {
+    color: #333;
+    text-decoration: none;
+}
+
+.myscroll a:hover {
+    color: #ED5565;
+    text-decoration: underline;
+}
+
+.icon-sort {
+    width: 7px;
+    height: 53px;
+    background: url(../images/icon-sort_03_ea3f023.png) no-repeat;
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+.zuixin .zx-list li span {
+    height: 18px;
+    display: block;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.zuixin .zx-list li a {
+    display: block;
+    cursor: pointer;
+    color: #0185c6;
+    height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+ $(document).ready(function () {
+        //卷轴展开效果
+        $(".l-pic-index").animate({'left': '95px', 'top': '-4px'}, 1300);
+        $(".r-pic-index").animate({'right': '-23px', 'top': '-5px'}, 1450);
+        $(".l-bg-index").animate({'width': '433px', 'left': '73px'}, 1500);
+        $(".r-bg-index").animate({'width': '433px', 'right': '-38px'}, 1500, function () {
+            $(".main-index").fadeIn(800);
+        });
+
+        timeId=setTimeout(function () {
+            location.href="../首页/index.html";
+        },3000)
+    });
