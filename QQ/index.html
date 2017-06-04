@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+   <!-- 头部开始  -->
+   <div class="nav-header">
+       <div class="head-contain">
+           <a href="" class="top-logo">
+             <img src="./images/logo.png" alt="" width="145px" height="90px">
+           </a>
+            <div class="top-nav">
+                
+                <ul>
+                    <li><a href="#">功能特权</a></li>
+                    <li><a href="#">游戏特权</a></li>
+                    <li><a href="#">生活特权</a></li>
+                    <li><a href="#">会员活动</a></li>
+                    <li><a href="#">成长体系</a></li>
+                    <li><a href="#">年费专区</a></li>
+                    <li><a href="#">超级会员</a></li>
+                </ul>
+            </div>
+
+            <div class="top-right">
+              <a href="" class="login">登录</a>
+              <a href="" class="open-vip">开通超级会员</a>
+            </div>
+       </div>
+    </div>
+  
+<div id="fullpage">
+
+           <!-- 第一屏 -->
+           <div class="section first">
+             <h3 class="sec1-title"></h3>
+             <p class="sec1-info"></p>
+             <div class="sec1-vip">
+               <a href="">开通会员</a>
+               <a href="" class="super-vip">开通超级会员</a>
+             </div>
+             <div class="figure-1"></div>
+
+           </div>
+           <!-- 第二屏 -->
+           <div class="section second">
+             <a href="" class="screen-area sec2-area">
+               <span class="icon icon-feature"></span>
+             </a>
+             <div class="figure-2"></div>
+
+             <div class="figure-list">
+               <a href="" class="icon-1"></a>
+               <a href="" class="icon-2"></a>
+               <a href="" class="icon-3"></a>
+               <a href="" class="icon-4"></a>
+               <a href="" class="icon-5"></a>
+               <a href="" class="icon-6"></a>
+               <a href="" class="icon-7"></a>
+               <a href="" class="icon-8"></a>
+               <a href="" class="icon-9"></a>
+             </div>
+
+
+           </div>
+           <!-- 第三屏 -->
+           <div class="section third">
+             
+             <a href="" class="screen-area sec3-area">
+               <span class="icon icon-game"></span>
+             </a>
+
+             <div class="figure-3"></div>
+             <div class="figure-3-mask"></div>
+            <div class="figure1-list">
+              
+              <span class="sec3-icon icon-monitor"></span>
+              <span class="sec3-icon1 icon-character1"></span>
+              <span class="sec3-icon1 icon-character2"></span>
+              <span class="sec3-icon icon-character3"></span>
+              <span class="sec3-icon icon-character4"></span>
+              <span class="sec3-icon icon-character5"></span>
+              <span class="sec3-icon1 icon-shine"></span>
+              <span class="sec3-icon1 icon-car"></span>
+              <span class="sec3-icon1 icon-flame"></span>
+
+            </div>
+            <div class="light"></div>
+
+
+           </div>
+           <!-- 第四屏 -->
+           <div class="section fourth">
+              <a href="" class="screen-area sec4-area">
+                <span class="icon icon-life"></span>
+              </a>
+                <div class="figure-4"></div>
+                <div class="figure2-list">
+                  <span class="icon-watch"></span>
+                  <span class="icon-headset"></span>
+                  <span class="icon-shoe"></span>
+                  <span class="icon-glasses"></span>
+                  <span class="icon-bag"></span>
+                  <span class="icon-perfume"></span>
+                  <span class="icon-hat"></span>
+                  <span class="icon-dress"></span>
+                </div>
+
+           </div>
+
+           <!-- 第五屏 -->
+           <div class="section fifth">
+             
+             <a href="" class="screen-area sec5-area">
+                <span class="icon icon-cose"></span>
+              </a>
+                <div class="figure-5"></div>
+                <div class="figure3-list">
+                  <span class="icon-bird"></span>
+                  <span class="icon-qq"></span>
+                  <span class="icon-bear"></span>
+                  <span class="icon-qana"></span>
+                  <span class="icon-dialog1"></span>
+                  <span class="icon-dialog2"></span>
+                </div>
+           </div>
+
+
+
+
+
+
+           <footer class="">
+       
+   </footer>
+
+      </div>
+   
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+    <script type="text/javascript">
+        
+        $('#fullpage').fullpage({
+            // sectionsColor : ['#0da5d6', '#2AB561', '#DE8910', '#16BA9D', '#0DA5D6'],
+
+
+            afterLoad:function(anchorLink,index){
+
+             $('.section').removeClass('current');
+              setTimeout(function(){
+                $('.section').eq(index-1).addClass('current');
+              })
+            }
+        })
+    </script>
+</div>
+</body>
+</html>

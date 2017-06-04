@@ -1,0 +1,1023 @@
+html,body{
+    width: 100%;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+
+}
+
+/*固定导航*/
+.nav-header{
+    position: fixed;
+    z-index:99;
+    width: 100%;
+    height: 90px;
+    left:0;
+    top:0;
+    background:rgba(0, 0, 0, .6);
+
+}
+.head-contain{
+    width: 1180px;
+    height: 90px;
+    margin:0 auto;
+    text-align: center;
+}
+.top-logo,.top-nav,.top-nav li,.top-right{
+    height: 90px;
+    display: inline-block;
+    vertical-align:top;
+}
+.top-nav{
+    margin:0 48px;
+}
+.top-nav li{
+    width: 90px;
+    
+    list-style: none;
+    /*float: left;*/
+}
+.top-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.top-nav  li a{
+    display:block;
+    text-align:center;
+    font-size:16px;
+    line-height: 90px;
+    color:#fff;
+
+}
+
+.top-right a{
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 35px;
+}
+.top-right a:hover{
+    background-color:#fbd74f;
+    color:#9c701e;
+}
+.top-right .login{
+    width: 93px;
+    height: 38px;
+    line-height: 38px;
+        color:#fad65c;
+    border:1px #fad65c solid;
+
+}
+.top-right .open-vip{
+    width:140px;
+    height:40px;
+    font-weight:700;
+    line-height:40px;
+    background:#fad65c;
+    color:#986b0d;
+}
+/*导航结束*/
+
+
+
+
+
+
+
+
+/*公共*/
+.section{
+    position: relative;
+    overflow: hidden;
+}
+.screen-area{
+    width: 355px;
+    height: 175px;
+    position: absolute;
+    left:50%;
+    top:290px;
+    opacity: 0;
+    margin-left:-500px;
+    background: url(../images/sprites_index.png) no-repeat 0 -258px;
+}
+.icon{
+    width: 130px;
+    height: 110px;
+    position: absolute;
+    left:-130px;
+    top:13px;
+      opacity: 0;
+    background: url(../images/sprites_index.png) no-repeat;
+}
+
+/*第一屏*/
+
+
+.first{
+    width: 100%;
+    height: 834px;
+    background:url(../images/bg_1.jpg) top center;
+}
+.first .sec1-title{
+    z-index:5;
+    width: 770px;
+    height: 265px;
+    /*overflow: hidden;*/
+    position: absolute;
+    left:50%;
+    top:175px;
+    margin-left: -540px;
+ opacity: 0;
+ background: url(../images/sprites_index.png) no-repeat;
+}
+
+
+.first.current .sec1-title{
+
+    /*transform: translateZ(600px);*/
+   
+    animation:firstIn 0.4s linear forwards;
+
+}
+@keyframes firstIn {
+    0%{
+         opacity: 1;
+        transform:scale(3);
+    }
+    50%{
+        opacity: 1;
+        transform:scale(1.5);
+    }
+    100%{
+        opacity: 1;
+        transform:scale(1);
+    }
+}
+.first .sec1-info{
+    width: 424px;
+    height: 128px;
+     opacity:0;
+    position: absolute;
+    left:50%;
+    bottom:120px;
+    margin-left: -525px;
+    background: url(../images/sprites_index.png)no-repeat -590px -268px;
+
+}
+
+.first.current .sec1-info,
+.first.current .sec1-vip,
+.second.current .sec2-area,
+.third.current .sec3-area,
+.fourth.current .sec4-area,
+.fifth.current .sec5-area
+{
+   /* transform: translate(0px,-280px);
+    transition:all 1s 0.5s  linear;*/
+
+  animation:fadeInUp 0.5s  linear forwards;
+}
+@keyframes fadeInUp{
+    0%{
+        opacity:0;
+        transform: translateY(280px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.first .sec1-vip{
+    position: absolute;
+ opacity:0;
+    left:50%;
+    bottom:70px;
+    margin-left:-535px;
+
+}
+
+.first .sec1-vip a{
+    width: 196px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    display: inline-block;
+    border:2px #fbd74f solid;
+    border-radius:26px;
+    color:#fbd74f;
+    text-align: center;
+}
+.first .sec1-vip a:hover{
+    background-color:#fbd74f;
+    color:#9c701e;
+}
+.first .sec1-vip .super-vip{
+background-color:#fbd74f;
+    color:#9c701e;
+}
+.first .figure-1{
+    width: 720px;
+    height: 656px;
+    position: absolute;
+    left:45%;
+    top:170px;
+    background:url(../images/figure_1.png) no-repeat 100% 17px;
+}
+
+.first .figure-1:before{
+
+    content: '';
+    display:block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top:188px;
+  left:394px;
+  z-index: 5;
+    background: url(../images/sprites_index.png) no-repeat -526px -450px;;
+}
+
+.current .figure-1:before{
+        animation: shan 0.5s linear infinite;
+}
+
+@keyframes shan {
+    0%{
+        opacity: 0;
+    }
+    50%{
+         opacity: 1;
+    }
+    100%{
+       opacity: 0;
+    }
+}
+
+/*第一屏结束*/
+
+
+/*第二屏开始*/
+.second{
+    width: 100%;
+    height: 820px;
+    background: url(../images/bg_2.jpg) top center;
+}
+.second .sec2-area{
+
+}
+
+
+.sec2-area .icon-feature{
+  background-position:-685px -450px;
+
+}
+
+.current .icon-feature,
+.current .icon-game,
+.current .icon-life,
+.current .icon-cose{
+    animation: zhuan 1s ease forwards;
+}
+
+@keyframes zhuan {
+    0%{
+       opacity: 0;
+       transform: translateX(-100px) rotate(-180deg);  
+    }
+    100%{
+          opacity: 1;
+        transform: translateX(0) rotate(0);
+    }
+}
+.second .figure-2{
+    width: 720px;
+    height: 897px;
+    position: absolute;
+    left:45%;
+    top:-66px;
+    z-index:5;
+    background:url(../images/figure_2.png) no-repeat -427px 155px;
+}
+
+.figure-list a{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:50%;
+    background: url(../images/sprites_function_feature.png) no-repeat;
+    z-index: 5;
+}
+.figure-list a.icon-1{
+    background-position:0 0;
+    top:595px;
+    margin-left:100px;
+}
+.figure-list a.icon-2{
+    background-position:0 -110px;
+    top:595px;
+    margin-left:330px;
+    transform: scale(1.3);
+}
+.figure-list a.icon-3{
+    background-position:0 -220px;
+    top:500px;
+    margin-left:500px;
+}
+.figure-list a.icon-4{
+    z-index:1;
+    background-position:0 -330px;
+    top:365px;
+    margin-left:420px;
+    transform: scale(0.8);
+    
+}
+.figure-list a.icon-5{
+    background-position:0 -440px;
+    top:305px;
+    margin-left:250px;
+    z-index:1;
+    transform: scale(0.6);
+    
+}
+.figure-list a.icon-6{
+    background-position:0 -550px;
+    top:313px;
+    margin-left:90px;
+    z-index: 1;
+    transform: scale(0.4);
+}
+.figure-list a.icon-7{
+    background-position:0 -880px;
+    top:545px;
+    margin-left:-90px;
+    transform: scale(0.7);
+    
+}
+.figure-list a.icon-8{
+    background-position:0 -770px;
+    top:450px;
+    margin-left:-170px;
+    transform: scale(0.6);
+    
+}
+.figure-list a.icon-9{
+    background-position:0 -660px;
+    top:350px;
+    margin-left:-70px;
+    transform: scale(0.5);
+    
+}
+/*动画*/
+.current .icon-1{
+    animation:icon-1 0.5s linear ;
+}
+@keyframes icon-1{
+    0%{
+        z-index: 5;
+        transform: translate(0,0);
+        
+    }
+    25%{
+        z-index:5;
+        transform: translate(230px,0) scale(1.3);
+    }
+    50%{
+        z-index:5;
+       transform:translate(400px,-95px) scale(1);
+    }
+    75%{
+        z-index: 5;
+       transform:translate(320px,-230px) scale(0.8);
+    }
+    100%{
+        z-index:1;
+        transform:translate(151px,-289px) scale(0.6);
+    }
+}
+.current .icon-2{
+    animation:icon-2 0.5s linear ;
+}
+@keyframes icon-2{
+    0%{
+        /*z-index: 5;*/
+        transform: translate(0,0) scale(1.3);
+        
+    }
+    25%{
+        /*z-index:5;*/
+        transform: translate(170px,-95px) scale(1);
+    }
+    50%{
+        /*z-index:5;*/
+       transform:translate(90px,-230px) scale(0.8);
+    }
+    75%{
+        z-index: 1;
+        transform:translate(-79px,-290px) scale(0.6);
+       
+    }
+    100%{
+        z-index:1;
+        transform:translate(-240px,-282px) scale(0.4);
+    }
+}
+.current .icon-3{
+    animation:icon-3 0.5s linear ;
+}
+@keyframes icon-3{
+    0%{
+        /*z-index: 5;*/
+        transform: translate(0,0) scale(1);
+        
+    }
+    25%{
+        /*z-index:1;*/
+        transform: translate(-80px,-135px) scale(0.8);
+    }
+    50%{
+        z-index:1;
+       transform:translate(-250px,-194px) scale(0.6);
+    }
+    75%{
+        z-index: 1;
+        transform:translate(-410px,-187px) scale(0.4);
+       
+    }
+    100%{
+        z-index:5;
+        transform:translate(-570px,-150px) scale(0.5);
+    }
+}
+.current .icon-4{
+    animation:icon-4 0.5s linear ;
+}
+@keyframes icon-4{
+    0%{
+        /*z-index: 1;*/
+        transform: translate(0,0) scale(0.8);
+        
+    }
+    25%{
+        /*z-index:1;*/
+        transform: translate(-170px,-59px) scale(0.6);
+    }
+    50%{
+        z-index:1;
+       transform:translate(-330px,-52px) scale(0.4);
+    }
+    75%{
+        z-index: 1;
+        transform:translate(-490px,-15px) scale(0.5);
+       
+    }
+    100%{
+        z-index:5;
+        transform:translate(-590px,85px) scale(0.6);
+    }
+}
+.current .icon-5{
+    animation:icon-5 0.5s linear ;
+}
+@keyframes icon-5{
+    0%{
+        /*z-index: 1;*/
+        transform: translate(0,0) scale(0.6);
+        
+    }
+    25%{
+        z-index:1;
+        transform: translate(-160px,8px) scale(0.4);
+    }
+    50%{
+        z-index:5;
+       transform:translate(-320px,45px) scale(0.5);
+    }
+    75%{
+        z-index: 5;
+        transform:translate(-420px,145px) scale(0.6);
+       
+    }
+    100%{
+        z-index:5;
+        transform:translate(-340px,240px) scale(0.7);
+    }
+}
+.current .icon-6{
+    animation:icon-6 0.5s linear ;
+}
+@keyframes icon-6{
+    0%{
+        /*z-index: 1;*/
+        transform: translate(0,0) scale(0.4);
+        
+    }
+    25%{
+        z-index:1;
+        transform: translate(-160px,37px) scale(0.5);
+    }
+    50%{
+        z-index:5;
+       transform:translate(-260px,137px) scale(0.6);
+    }
+    75%{
+        z-index: 5;
+        transform:translate(-180px,232px) scale(0.7);
+       
+    }
+    100%{
+        z-index:5;
+        transform:translate(10px,282px) scale(1);
+    }
+}
+.current .icon-7{
+    animation:icon-7 0.5s linear ;
+}
+@keyframes icon-7{
+    0%{
+        /*z-index: 5;*/
+        transform: translate(0,0) scale(0.7);
+        
+    }
+    25%{
+        /*z-index:1;*/
+        transform: translate(190px,50px) scale(1);
+    }
+    50%{
+        /*z-index:1;*/
+       transform:translate(420px,50px) scale(1.3);
+    }
+    75%{
+        /*z-index: 1;*/
+        transform:translate(590px,-45px) scale(1);
+       
+    }
+    100%{
+        z-index:1;
+        transform:translate(510px,-180px) scale(0.8);
+    }
+}
+.current .icon-8{
+    animation:icon-8 0.5s linear ;
+}
+@keyframes icon-8{
+    0%{
+        /*z-index: 5;*/
+        transform: translate(0,0) scale(0.6);
+        
+    }
+    25%{
+        /*z-index:1;*/
+        transform: translate(80px,95px) scale(0.7);
+    }
+    50%{
+        /*z-index:1;*/
+       transform:translate(270px,145px) scale(1);
+    }
+    75%{
+        /*z-index: 1;*/
+        transform:translate(500px,145px) scale(1.3);
+       
+    }
+    100%{
+        /*z-index:5;*/
+        transform:translate(670px,50px) scale(1);
+    }
+}
+.current .icon-9{
+    animation:icon-9 0.5s linear;
+}
+@keyframes icon-9{
+    0%{
+        /*z-index: 5;*/
+        transform: translate(0,0) scale(0.5);
+        
+    }
+    25%{
+        /*z-index:1;*/
+        transform: translate(-100px,100px) scale(0.6);
+    }
+    50%{
+        /*z-index:1;*/
+       transform:translate(-20px,195px) scale(0.7);
+    }
+    75%{/*
+        z-index: 1;*/
+        transform:translate(170px,245px) scale(1);
+       
+    }
+    100%{
+        /*z-index:5;*/
+        transform:translate(400px,245px) scale(1.3);
+    }
+}
+
+/*第三屏*/
+.third{
+    width: 100%;
+    height: 779px;
+    background:url(../images/bg_3.jpg) top center;
+}
+.third .sec3-area{
+    background-position:0 -450px;
+}
+.third .icon-game{
+    background-position: -685px -570px;
+}
+.figure-3{
+    width: 527px;
+    height: 758px;
+    position: absolute;
+    left:55%;
+    top:2px;
+    z-index:4;
+    background:url(../images/figure_3.png)no-repeat -666px 100px;
+}
+/*.figure-3-mask{
+    width: 600px;
+    height: 156px;
+    margin-left:100px;
+    position:absolute;
+    left:50%;
+    bottom: 17px;
+    background: url(../images/bg_3_mask.png) no-repeat;
+    z-index:5;
+}*/
+.figure1-list span{
+    display:block;
+    position:absolute;
+    left:55%;
+    z-index:5;
+}
+.figure1-list .sec3-icon{
+    background:url(../images/sprites_game_feature.png) no-repeat;
+}
+.figure1-list .sec3-icon1{
+    background:url(../images/sprites_game_feature2.png) no-repeat;
+}
+.figure1-list .icon-monitor{
+    width: 335px;
+    height: 330px;
+    margin-left: -226px;
+    top:494px; 
+    z-index:6;
+    opacity: 0;
+}
+.figure1-list .icon-character1{
+    width: 237px;
+    height: 285px;
+    margin-left:-299px;
+    top:380px;
+    background-position: -204px -33px;
+    opacity: 0;
+}
+.figure1-list .icon-character2{
+    width: 191px;
+    height: 382px;
+    margin-left:-188px;
+    top:295px;
+    background-position: -426px 0;
+    opacity: 0;
+}
+.figure1-list .icon-character3{
+    width: 260px;
+    height: 385px;
+    margin-left:-165px;
+    top:182px;
+    background-position: -382px -227px;
+    z-index:4;
+    opacity: 0;
+}
+.figure1-list .icon-character4{
+    width: 337px;
+    height: 369px;
+    margin-left: -120px;
+    top:220px;
+    background-position:0 -305px;
+    opacity: 0;
+}
+.figure1-list .icon-character5{
+    width: 193px;
+    height: 162px;
+    margin-left: 70px;
+    top:500px;
+    background-position: -413px -30px;
+    opacity: 0;
+}
+.figure1-list .icon-shine{
+    width: 407px;
+    height: 355px;
+    margin-left: -224px;
+    top:332px;
+    background-position: 10px -389px;
+    opacity: 0;
+}
+.figure1-list .icon-car{
+    width: 147px;
+    height: 82px;
+    margin-left:445px;
+    top:627px;
+    background-position: 0 0;
+    opacity: 0;
+}
+.figure1-list .icon-flame{
+    width: 207px;
+    height: 159px;
+    margin-left: 375px;
+    top:564px;
+    background-position: 0 -102px;
+    z-index:4;
+    opacity: 0;
+}
+.third .light{
+    width: 1173px;
+    height: 604px;
+    margin-left: -400px;
+    position:absolute;
+    left:50%;
+    top:165px;
+    z-index:10;
+    background:url(../images/sprites_decoration2.png) no-repeat;
+    opacity: 0;
+
+}
+
+/*动画*/
+.current .icon-monitor{
+    animation: fadeIn 0.5s ease forwards;
+}
+.current .icon-shine{
+     animation: fadeIn 0.5s 0.2s ease forwards;
+}
+.current .icon-character1{
+    animation:fadeIn 0.5s 0.3s ease forwards;
+}
+.current .icon-character2{
+    animation:fadeIn 0.5s 0.4s ease forwards;
+}
+.current .icon-character3{
+    animation:fadeIn 0.5s 0.5s ease forwards;
+}
+.current .icon-character4{
+    animation:fadeIn 0.5s 0.6s ease forwards;
+}
+.current .icon-character5{
+    animation:fadeIn 0.5s 0.7s ease forwards;
+}
+.current .icon-car{
+    
+    animation:fadeIn 0.5s 1.2s ease forwards;
+}
+.current .icon-flame{
+    animation:fadeIn 0.5s 1s ease forwards;
+}
+.current .light{
+    
+    animation:fadeIn 0.5s 1.2s ease forwards;
+}
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+        transform: translateX(-10px);
+
+    }
+    100%{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+
+
+/*第四屏*/
+
+.fourth{
+    width: 100%;
+    height: 818px;
+    background:url(../images/bg_4.jpg) top center;
+}
+.fourth .sec4-area{
+    background-position:0 -625px; 
+}
+.fourth .icon-life{
+    background-position: -685px -690px;
+}
+.figure-4{
+        width: 700px;
+        height: 864px;
+        position: absolute;
+        left:45%;
+        top:-35px;
+        z-index:5;
+        background: url(../images/figure_4.png) no-repeat -562px 160px;
+}
+.figure2-list{
+    width: 875px;
+    height: 693px;
+    margin-left:-196px;
+    position: absolute;
+    left:50%;
+    top:92px;
+    z-index: 5;
+    transform:rotate(-90deg) scale(0);
+
+}
+.figure2-list span{
+    display:block;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index:5;
+    background:url(../images/sprites_life_feature.png) no-repeat;
+}
+
+.figure2-list .icon-watch{
+    top:-10px;
+    left:225px;
+    z-index: 4;
+    background-position:0 -150px;
+
+}
+.figure2-list .icon-headset{
+    top:45px;
+    left:60px;
+    z-index:4;
+    background-position:0 0;
+}
+.figure2-list .icon-shoe{
+    top: 370px;
+    left:-25px;
+    z-index: 4;
+    background-position: 0 -300px;
+}
+.figure2-list .icon-glasses{
+    top:525px;
+    left:200px;
+    background-position:0 -750px;
+}
+.figure2-list .icon-bag{
+    top:540px;
+    left:500px;
+    background-position:0 -900px;
+}
+.figure2-list .icon-perfume{
+    top:415px;
+    left:700px;
+    /*z-index:6;*/
+    background-position:0 -1050px;
+}
+.figure2-list .icon-hat{
+    top:200px;
+    left:700px;
+    z-index:4;
+    background-position:0 -600px;
+}
+.figure2-list .icon-dress{
+    top:45px;
+    left:600px;
+    z-index:1;
+    background-position:0 -450px;
+}
+
+/*动画*/
+.current .figure2-list{
+
+    animation:rotate 0.8s ease forwards;
+}
+
+@keyframes rotate{
+    0%{
+        opacity: 0.5;
+        transform: rotate(-90deg) scale(0);
+    }
+    100%{
+        opacity:1;
+        transform:rotate(0) scale(1); 
+
+    }
+}
+.current .icon-watch, .current .icon-headset, .current .icon-shoe, .current .icon-glasses, .current .icon-bag, .current .icon-perfume, .current .icon-hat, .current .icon-dress{
+    animation: move 5s linear infinite;
+}
+@keyframes move{
+    0%{
+        transform:translate(0,0);
+    }
+    25%{
+        transform:translate(5px,3px);
+    }
+    50%{
+        transform:translate(8px,0);
+    }
+    75%{
+        transform:translate(5px -5px);
+    }
+    100%{
+        
+        transform:translate(0,0);
+    }
+}
+
+/*第五屏*/
+
+
+.fifth{
+    width: 100%;
+    height: 749px;
+    background: url(../images/bg_5.jpg) top center;
+}
+.fifth .sec5-area{
+    background-position: 0 -820px;
+}
+.fifth .icon-cose{
+    background-position: -685px -810px;
+}
+.figure-5{
+    width: 570px;
+    height: 690px;
+    position: absolute;
+    left:50%;
+    top:60px;
+    z-index:5;
+    background: url(../images/figure_5.png) no-repeat;
+}
+.figure3-list span{
+    position:absolute;
+    left:50%;
+    z-index:5;
+    background:url(../images/sprites_makeup_feature.png) no-repeat;
+}
+.figure3-list .icon-bird{
+    width: 100px;
+    height: 110px;
+    top:247px;
+    margin-left: 375px;
+    /*opacity: 0;*/
+    transform: scale(0);
+}
+.figure3-list .icon-qq {
+    width:138px;
+    height:134px;
+    top:595px;
+    margin-left:470px;
+    background-position:0 -121px;
+}
+.figure3-list .icon-bear{
+    width: 160px;
+    height: 210px;
+    top:480px;
+    margin-left:-95px;
+    background-position: 0 -400px;
+}
+.figure3-list .icon-qana{
+    width: 138px;
+    height: 130px;
+    top:590px;
+    margin-left:-210px;
+    background-position: 0 -271px;
+}
+.figure3-list .icon-dialog1{
+    width: 190px;
+    height: 90px;
+    top:400px;
+    margin-left:50px;
+    opacity: 0;
+    background-position: 0 -626px;
+    transform: translateX(10px);
+}
+.current .icon-dialog1{
+    animation: seyhello 1s linear;
+    opacity:1;
+    /*transform: translateX(0) scale(1.2);*/
+     /*transition: all 1s ease-out;*/
+}
+.figure3-list .icon-dialog2{
+    width: 285px;
+    height: 85px;
+    top:500px;
+    margin-left:300px;
+    opacity: 0;
+    background-position: 0 -740px;
+}
+.current .icon-dialog2{
+    opacity:1;
+    transform:translateX(20px);
+    transition:all 1s ease-out;
+}
+@keyframes sayhello{
+    0%{
+     
+        transform: translateX(0) scale(0);
+    }
+    50{
+        transform:translateX(5px) scale(1.2);
+    }
+    100%{
+        transform:translateX(0) scale(1);
+    }
+}
